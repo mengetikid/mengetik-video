@@ -9,8 +9,8 @@ Mesin aplikasi **Video Studio** untuk halaman https://www.mengetik.id/p/video-st
 
 | File | Fungsi |
 |---|---|
-| `video-studio-1.0.1.js` | Mesin aplikasi versi terbaru (dimuat oleh halaman Blogger lewat jsDelivr) |
-| `video-studio-1.0.0.js` | Versi sebelumnya (boleh tetap disimpan) |
+| `video-studio-1.0.2.js` | Mesin aplikasi versi terbaru (dimuat oleh halaman Blogger lewat jsDelivr) |
+| `video-studio-1.0.1.js`, `video-studio-1.0.0.js` | Versi sebelumnya (boleh tetap disimpan) |
 | `fonts/` | Font koleksi tambahan (opsional, lihat di bawah) |
 
 ## Cara update versi
