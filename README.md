@@ -9,8 +9,8 @@ Mesin aplikasi **Video Studio** untuk halaman https://www.mengetik.id/p/video-st
 
 | File | Fungsi |
 |---|---|
-| `video-studio-1.0.2.js` | Mesin aplikasi versi terbaru (dimuat oleh halaman Blogger lewat jsDelivr) |
-| `video-studio-1.0.1.js`, `video-studio-1.0.0.js` | Versi sebelumnya (boleh tetap disimpan) |
+| `video-studio-1.0.3.js` | Mesin aplikasi versi terbaru (dimuat oleh halaman Blogger lewat jsDelivr) |
+| `video-studio-1.0.0.js` s/d `1.0.2.js` | Versi sebelumnya (boleh tetap disimpan) |
 | `fonts/` | Font koleksi tambahan (opsional, lihat di bawah) |
 
 ## Cara update versi
@@ -29,22 +29,14 @@ Dimuat dari jsDelivr saat dibutuhkan:
 
 ## Folder `fonts/` (font koleksi tambahan)
 
-Unggah file font ke folder `fonts/` dengan nama persis seperti di bawah. Ekstensi boleh `.woff2`, `.woff`, `.ttf`, atau `.otf`.
+Saat ini hanya satu file yang perlu ada di folder ini:
 
-| Nama di aplikasi | Nama file |
-|---|---|
-| Thunder | `thunder` |
-| Harmony Serif | `harmony` |
-| Resist Sans | `resist-sans` |
-| Shrimp | `shrimp` |
-| Tropikal | `tropikal` |
-| Obrazec | `obrazec` |
-| Creme Espana | `creme-espana` |
-| Elanor | `elanor` |
-| Nighty | `nighty` |
+| Nama di aplikasi | Nama file | Lisensi |
+|---|---|---|
+| Obrazec | `obrazec.otf` | Free for Personal and Commercial Use |
 
-Contoh nama lengkap: `thunder.otf` atau `resist-sans.ttf`.
+Font koleksi lain (Fraunces, Shrikhand, Teko, Bungee, Lobster, Anton, Pinyon Script, Junicode) berlisensi SIL OFL dan dimuat otomatis, jadi tidak perlu diunggah.
 
-Junicode Bold Condensed (lisensi SIL OFL) sudah dimuat otomatis, jadi tidak perlu diunggah.
+Proyek lama yang memakai Thunder, Elanor, Nighty, Creme Espana, Harmony, Resist Sans, Shrimp, atau Tropikal otomatis diganti ke padanannya (font lama tersebut hanya berlisensi pemakaian pribadi).
 
-**Penting:** unggah hanya font yang lisensinya mengizinkan dipakai/dibagikan di website (web embedding). Banyak font "free" hanya gratis untuk pemakaian pribadi.
+**Penting:** sebelum menambah font baru ke folder ini, pastikan lisensinya mengizinkan pemakaian komersial dan web embedding.
